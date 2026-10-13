@@ -2,6 +2,8 @@
 # Q1. What is the total time of Version A?  Q2. Version B?  Q3. Version C?
 # Write your guesses in comments below BEFORE running.
 # A = ?   B = ?   C = ?
+
+# My guess: A=5, B=3, C=3 | Actual: A=5, B=3, C=5
 import asyncio
 import time
 
@@ -42,4 +44,10 @@ async def main():
     await timed(version_c)
 
 
-asyncio.run(main())
+# asyncio.run(main())
+await main()  # Use this line in a Jupyter notebook instead of asyncio.run(main())
+
+
+# version_a: 5.0s
+# version_b: 3.0s
+# version_c: 5.0s
