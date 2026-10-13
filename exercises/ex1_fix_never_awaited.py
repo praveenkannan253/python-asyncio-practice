@@ -10,8 +10,9 @@ async def greet():
 
 
 async def main():
-    message = greet()  # TODO: fix this line
+    message = await greet()  # TODO: fix this line
     print(message)
 
 
-asyncio.run(main())
+asyncio.run(main())  # fails in Jupyter
+# await main()  # works in Jupyter
