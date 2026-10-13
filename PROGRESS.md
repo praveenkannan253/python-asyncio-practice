@@ -10,7 +10,7 @@
 ## Checklist
 - [x] Watched the video and made notes
 - [x] Ran all 5 examples
-- [ ] Ex1: fix "never awaited"
+- [x] Ex1: fix "never awaited"
 - [ ] Ex2: predict timing
 - [ ] Ex3: gather 5 calls
 - [ ] Ex4: TaskGroup vs gather failure
