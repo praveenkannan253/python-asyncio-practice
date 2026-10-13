@@ -44,8 +44,8 @@ async def main():
     await timed(version_c)
 
 
-# asyncio.run(main())
-await main()  # Use this line in a Jupyter notebook instead of asyncio.run(main())
+asyncio.run(main())
+# await main()  # Use this line in a Jupyter notebook instead of asyncio.run(main())
 
 
 # version_a: 5.0s
